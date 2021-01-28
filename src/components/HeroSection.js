@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {classNames, toStyleObj, withPrefix, htmlToReact, markdownify} from '../utils';
 import SectionActions from './SectionActions';
 
-export default class HeroSection extends React.Component {asd &#*@*(DS*(*(e89
+export default class HeroSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         let padding_top = _.get(section, 'padding_top', null) || 'medium';
